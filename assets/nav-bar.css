@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  color: #772012;
+}
+header {
+  background-color: #fcf7df;
+  padding-block: 1rem;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  background-color: #f9dd6a;
+  padding-inline: 1rem;
+  padding-block: 0.8rem;
+  border-radius: 40px;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.shop-btn {
+  font-size: 25px;
+  padding-block: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.shop-btn img {
+  width: 35px;
+  margin-inline-end: 1rem;
+}

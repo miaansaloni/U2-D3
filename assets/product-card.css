@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+.card {
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #fcf7df;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.card img {
+  width: 100%;
+}
+.product-info {
+  display: flex;
+  justify-content: space-around;
+  line-height: 0;
+  padding: 0.5rem;
+  color: #772012;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.add-to-cart {
+  border: none;
+  color: #772012;
+  font-weight: bold;
+  background-color: #f9dd6a;
+  padding-inline: 3rem;
+  padding-block: 0.5rem;
+  border-radius: 5rem;
+}

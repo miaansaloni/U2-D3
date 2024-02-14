@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  color: #772012;
+}
+
+article {
+  background-color: #fcf7df;
+  border-radius: 35px;
+  padding-inline: 2rem;
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+p {
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  article img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) {
+  article {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+  }
+  .content {
+    margin-inline-start: 1.5rem;
+  }
+  .content h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
